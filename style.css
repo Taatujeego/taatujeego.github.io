@@ -5,7 +5,13 @@
     grid-template-rows: 1fr;
 
 }
-
+@media only screen and(max-width 450) { 
+    .container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
+    }}
 
 .zone {
     cursor:pointer;
