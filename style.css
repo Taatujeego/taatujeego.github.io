@@ -6,15 +6,15 @@ body{
 	display: flex;
 	align-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	background-color: red;
+	background-color: #034c9d;
 	height: 300px;
 }
 
 .gridsystem{
-	color: white;
+	color: #e3d5d500;
 	padding: 20px;
 	margin: 20px;
-	background-color: black;
+	background-color: #00000000;
 	border-radius: 10px;
 	width: 250px;
 	height: 200px;
